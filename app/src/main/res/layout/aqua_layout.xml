@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activities_background">
+    <TextView
+        android:id="@+id/aqua_general_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="General Aquaculture Farming Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/aqua_general_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqua_general_info_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/aqua_species_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aqua_general_info"
+        android:paddingTop="10dp"
+        android:text="Common Fish Species Cultured"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/aqua_species"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqua_species_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/aqua_management_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aqua_species"
+        android:paddingTop="10dp"
+        android:text="Management Practices"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/aqua_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqua_management_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/policulture_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aqua_management"
+        android:paddingTop="10dp"
+        android:text="Policulture"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/policulture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/policulture_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/aqua_market_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/policulture"
+        android:paddingTop="10dp"
+        android:text="Market Aquaculture Products"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/aqua_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqua_market_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/aqua_crocodile_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aqua_market"
+        android:paddingTop="10dp"
+        android:text="Crocodile Farming"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/aqua_crocodile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqua_crocodile_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+
+</RelativeLayout>

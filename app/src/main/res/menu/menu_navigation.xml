@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/other_experts"
+        android:title="Other Experts"
+        android:icon="@drawable/ic_other_experts"/>
+    <item
+        android:id="@+id/farmers"
+        android:title="Farmers"
+        android:icon="@drawable/ic_farmers"/>
+    <item
+        android:id="@+id/learn"
+        android:title="Weather Updates"
+        android:icon="@drawable/ic_learn"/>
+
+</menu>

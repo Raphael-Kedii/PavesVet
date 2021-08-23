@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/activities_background"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="income"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/livestock_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"
+            android:paddingEnd="10dp"
+            android:layout_column="1"
+            android:text="Livestock Farming Income"/>
+
+        <TextView
+            android:id="@+id/livestock_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:gravity="center"
+            android:text="KSH 20,000"
+            android:textColor="@color/black"
+            android:layout_column="2"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/crop_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Crop Farming Income"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"/>
+
+        <TextView
+            android:id="@+id/crop_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:gravity="center"
+            android:layout_column="2"
+            android:text="KSH 35,000"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/other_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Income"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/other_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:layout_column="2"
+            android:text="KSH 15,000"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/total_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Total Income"
+            android:textSize="18sp"
+            android:layout_column="1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:layout_column="2"
+            android:gravity="center"
+            android:text="KSH 70,000"
+            android:textColor="@color/endblue"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expenses"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/livestock_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"
+            android:layout_column="1"
+            android:text="Livestock Farming Expense"/>
+
+        <TextView
+            android:id="@+id/livestock_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:text="KSH 20,000"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_column="2"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/crop_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Crop Farming Expense"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"/>
+
+        <TextView
+            android:id="@+id/crop_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:layout_column="2"
+            android:text="KSH 35,000"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/other_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Expense"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="#FFFF00"/>
+
+        <TextView
+            android:id="@+id/other_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:layout_column="2"
+            android:text="KSH 15,000"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/total_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Total Income"
+            android:textSize="18sp"
+            android:layout_column="1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/total_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:layout_column="2"
+            android:text="KSH 70,000"
+            android:gravity="center"
+            android:textColor="@color/endblue"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>

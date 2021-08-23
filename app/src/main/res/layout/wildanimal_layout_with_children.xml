@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/activities_background">
+    <RelativeLayout
+        android:id="@+id/button"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+        <View
+            android:background="@drawable/ic_keyboard_arrow_up_white_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/disease_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:text="Disease name"
+        android:textSize="22sp"/>
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:orientation="vertical"
+        android:layout_below="@+id/disease_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ael_duration ="400"
+        app:ael_expanded ="false"
+        app:ael_interpolator ="bounce">
+
+        <TextView
+            android:id="@+id/aetiological_agent_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Causative Agent"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/aetiological_agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:text="Causative Agent"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/transmission_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Transmission"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/transmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Transmission"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/clinical_signs_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Clinical Signs"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/clinical_signs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Clinical Signs"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/differntial_diagnosis_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Differential Diagnosis"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/differntial_diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Differential_diagnosis"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/treatment_and_control_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Treatment and Control"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/treatment_and_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Treatment and Control"
+            android:textSize="16sp"/>
+
+
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+</RelativeLayout>

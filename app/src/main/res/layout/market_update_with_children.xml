@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/activities_background">
+    <RelativeLayout
+        android:id="@+id/button"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+        <View
+            android:background="@drawable/ic_keyboard_arrow_up_white_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/market_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:text="Market Name eg Chepareria"
+        android:textSize="22sp"/>
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:orientation="vertical"
+        android:layout_below="@+id/market_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ael_duration ="400"
+        app:ael_expanded ="true"
+        app:ael_interpolator ="bounce">
+
+        <TextView
+            android:id="@+id/cow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Cow Price eg KShs. 25,000"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/bull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="Bull Price eg KShs. 35,000"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/doe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Female Goat Price eg KShs. 3,500"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/billy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="Male Goat Price eg KShs. 4,500"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/ewe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Female Sheep Price eg KShs. 4,000"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="Ram Price eg Ksh. 5,000"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/cock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="Cock Price eg KShs. 700"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/hen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="Hen Price eg KShs. 350"
+            android:textSize="18sp"/>
+
+
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/livestock"
+        android:title="Livestock Farming"
+        android:icon="@drawable/ic_livestock"/>
+    <item
+        android:id="@+id/crop"
+        android:title="Crop Farming"
+        android:icon="@drawable/ic_crop"/>
+    <item
+        android:id="@+id/other_farming"
+        android:title="Farm Structures"
+        android:icon="@drawable/ic_other_farming"/>
+
+</menu>

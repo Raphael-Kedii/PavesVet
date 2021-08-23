@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paves.pavesvet">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FarmRecordActivity"
+            android:label="Farm Income and Expenses"/>
+        <activity
+            android:name=".OtherFarmingActivity"
+            android:label="Farm Structures" />
+        <activity
+            android:name=".CropActivity"
+            android:label="Crop Farming" />
+        <activity
+            android:name=".ExpertsLearnActivity"
+            android:label="@string/learn_latest_techniques" />
+        <activity
+            android:name=".FarmersActivity"
+            android:label="Registered Farmers" />
+        <activity
+            android:name=".DiagnosisActivity"
+            android:label="Farm Records" />
+        <activity
+            android:name=".FishFarmingActivity"
+            android:label="@string/learn_fish_farming" />
+        <activity
+            android:name=".PigFarmingActivity"
+            android:label="@string/learn_pig_farming" />
+        <activity
+            android:name=".BeefFarmingActivity"
+            android:label="@string/learn_beef_farming" />
+        <activity
+            android:name=".PoultryFarmingActivity"
+            android:label="@string/learn_poultry_farming" />
+        <activity
+            android:name=".ShoatsFarmingActivity"
+            android:label="@string/learn_shoats_farming" />
+        <activity
+            android:name=".DairyFarmingActivity"
+            android:label="@string/learn_dairy_farming" />
+        <activity
+            android:name=".PavesServicesActivity"
+            android:label="@string/paves_services" />
+        <activity
+            android:name=".PavesProductsActivity"
+            android:label="@string/paves_products" />
+        <activity
+            android:name=".ExpertDashboardActivity"
+            android:label="@string/agriculture_experts" />
+        <activity
+            android:name=".WildAnimalActivity"
+            android:label="@string/wildanimals" />
+        <activity
+            android:name=".RabitFishActivity"
+            android:label="@string/rabbitandfish" />
+        <activity
+            android:name=".DogsCatsActivity"
+            android:label="@string/dogs_and_cats_diseases" />
+        <activity
+            android:name=".PigsActivity"
+            android:label="@string/pigs_diseases" />
+        <activity
+            android:name=".CamelsActivity"
+            android:label="@string/camel_diseases" />
+        <activity
+            android:name=".PoultryActivity"
+            android:label="@string/poultry_diseases" />
+        <activity
+            android:name=".SheepGoatsActivity"
+            android:label="@string/shoats" />
+        <activity
+            android:name=".CowsActivity"
+            android:label="@string/cows_diseases" />
+        <activity android:name=".ExpertRegisterActivity" />
+        <activity android:name=".ExpertLoginActivity" />
+        <activity android:name=".SelectionActivity" />
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Splash_Screen_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgotpasswordActivity" />
+        <activity
+            android:name=".VetservicesActivity"
+            android:label="@string/agriculture_experts" />
+        <activity android:name=".WeatherUpdateActivity" />
+        <activity
+            android:name=".MarketUpdateActivity"
+            android:label="@string/market_updates" />
+        <activity
+            android:name=".DiseaseActivity"
+            android:label="@string/animal_diseases"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LearnActivity"
+            android:label="@string/learn_farming" />
+    </application>
+
+</manifest>

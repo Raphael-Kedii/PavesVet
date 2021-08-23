@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activities_background">
+    <TextView
+        android:id="@+id/beef_general_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="General Beef Farming Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/beef_general_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beef_general_info_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/beef_breeds_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beef_general_info"
+        android:paddingTop="10dp"
+        android:text="Breeds"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/beef_breeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beef_breeds_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/beef_management_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beef_breeds"
+        android:paddingTop="10dp"
+        android:text="Management of Different Classes of Stock"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/beef_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beef_management_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/management_act_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beef_management"
+        android:paddingTop="10dp"
+        android:text="Management Activities"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/management_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/management_act_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/records_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/management_act"
+        android:paddingTop="10dp"
+        android:text="Records and Recording Keeping"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/beef_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/records_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/nutrient_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beef_records"
+        android:paddingTop="10dp"
+        android:text="Nutrient Requirement for Beef Cattle"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/beef_nutrient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nutrient_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">PavesVet</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="already_registered">Already Registered? Login</string>
+    <string name="login">LOGIN</string>
+    <string name="new_here">New Here? Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="app_logo">App Logo</string>
+    <string name="names">Name</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reset">Reset Password</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="forgot_password_msg">We just need your registered Email to sent you password reset instructions.</string>
+    <string name="vet_services">vet services icon</string>
+    <string name="veterinary_services">Agri Experts</string>
+    <string name="diagnosis">diagnosis icon</string>
+    <string name="animal_diseases_diagnosis">Diagnosis</string>
+    <string name="latest_methods">Learn</string>
+    <string name="disease">Crop/Animal Diseases</string>
+    <string name="latest_farming_techniques">Learn FarmingF</string>
+    <string name="order_inputs">order inputs icon</string>
+    <string name="Click_to_order_inputs">Buy</string>
+    <string name="market">Agri-Product Market</string>
+    <string name="weather">Weather Information</string>
+    <string name="logout_btn">Logout</string>
+    <string name="paves_name">BOLDCOMP SOLUTIONS</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="register_icon">register icon</string>
+    <string name="gender">Gender</string>
+    <string name="content">Animal diagnosis details</string>
+    <string name="image">image</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="treatment">Treatment</string>
+    <string name="description">Brief Description</string>
+    <string name="title">Title</string>
+    <string name="name">Name:</string>
+    <string name="mobile">Mobile No: </string>
+    <string name="idNo">Id No: </string>
+    <string name="expertise">Expertise: </string>
+    <string name="imag">Imag</string>
+    <string name="location">Location: </string>
+    <string name="check">Check Details</string>
+    <string name="descri">Description</string>
+    <string name="slogan">All you need in farming</string>
+    <string name="company">BOLDCOMP SOLUTIONS</string>
+    <string name="title_activity_dashboard_two">DashboardActivityTwo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="expert">Expert</string>
+    <string name="farmer">Farmer</string>
+    <string name="who_are_you">Who are You?</string>
+    <string name="kapenguria">KAPENGURIA</string>
+    <string name="_15_april_2020_12_48_pm">15 April 2020, 12:48 PM</string>
+    <string name="clear_sky">Clear Sky</string>
+    <string name="_29_c">29°C</string>
+    <string name="min_temp_05_05_am">Min Temp: 05:05 AM</string>
+    <string name="max_temp_05_05_pm">Max Temp: 05:05 PM</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_06_40_am">06:40 AM</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="androdocs">AndroDocs</string>
+    <string name="created_by">Created By</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+    <string name="sunset">Sunset</string>
+    <string name="cows">Cattle</string>
+    <string name="sheep_goats">Sheep and Goats</string>
+    <string name="poultry">Poultry</string>
+    <string name="camel">Camels</string>
+    <string name="pig">Pigs</string>
+    <string name="dog_and_cat">Dogs and Cats</string>
+    <string name="animal_diseases">Animal Diseases</string>
+    <string name="cows_diseases">Cows Diseases</string>
+    <string name="shoats">Sheeps and Goats Diseases</string>
+    <string name="poultry_diseases">Poultry Diseases</string>
+    <string name="camel_diseases">Camel Diseases</string>
+    <string name="pigs_diseases">Pigs Diseases</string>
+    <string name="dogs_and_cats_diseases">Dogs and cats Diseases</string>
+    <string name="wild_animals">Wild Animals</string>
+    <string name="rabbit_and_fish">Rabbit and Fish</string>
+    <string name="wildanimals">Wild Animals Diseases</string>
+    <string name="rabbitandfish">Rabbit and Fish Diseases</string>
+    <string name="paves_services">Agricultural Services</string>
+    <string name="paves_products">Agricultural Products</string>
+    <string name="kvb_no">KVB No</string>
+    <string name="animal_health_experts">Animal Health Experts</string>
+    <string name="extension_officers">Extension Officers</string>
+    <string name="other_experts">Other Experts</string>
+    <string name="agriculture_experts">Agriculture Experts</string>
+    <string name="learn_farming">Learn Farming Techniques</string>
+    <string name="dairy_farming">Dairy Farming</string>
+    <string name="sheep_goat_farming">Sheep/Goat Farming</string>
+    <string name="poultry_farming">Poultry Farming</string>
+    <string name="beef_farming">Beef Farming</string>
+    <string name="pig_farming">Pig Farming</string>
+    <string name="fish_farming">Fish Farming</string>
+    <string name="email_address">Email Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="eg_raphael_kedii">eg Raphael kedii</string>
+    <string name="eg_0726642205">eg 0726642205</string>
+    <string name="eg_2534">eg 2534</string>
+    <string name="eg_animal_health_expert">eg Animal Health Expert</string>
+    <string name="eg_chepareria">eg Chepareria</string>
+    <string name="eg_pavesagriapp_gmail_com">eg pavesagriapp@gmail.com</string>
+    <string name="market_updates">Agri-Product Market</string>
+    <string name="learn_fish_farming">Learn Fish Farming</string>
+    <string name="learn_pig_farming">Learn Pig Farming</string>
+    <string name="learn_beef_farming">Learn Beef Farming</string>
+    <string name="learn_poultry_farming">Learn Poultry Farming</string>
+    <string name="learn_shoats_farming">Learn Sheep and Goat Farming</string>
+    <string name="learn_dairy_farming">Learn Dairy Farming</string>
+    <string name="learn_latest_techniques">Learn Latest Techniques</string>
+    <string name="aquaculture">Aquaculture</string>
+    <string name="farm_records">Your Farm Records</string>
+    <string name="fab_content_desc">fab_content_desc</string>
+    <string name="kedii">Kedii</string>
+
+    <string name="general_cropInfo">The Agricultural sector is the backbone of Kenya’s economy and the means of livelihood for most of the rural population.
+Correct, Timely and Reliable technical information plays a vital role in sharing knowledge, technologies, and Agricultural information and farmer linkages to other actors in the economy. Extension service accessed from easy to reach platforms becomes a critical change agent required to transform our subsistence farming to modern and commercial Agriculture.
+Due to declining human capital and financial resources for public extension, large and small-holder farmers, especially the resource poor in rural communities, may not be receiving adequate extension and advisory services as a result of these compounded factors.
+Therefore technological innovation serves as the conduit for bringing the challenges stated above to the attention of multiple actors in the value chains and wider innovation systems.
+The changing landscape of farmers from old to young, educated and techno serve farmers, require a platform that offers up to speed and updated knowledge, training, skills and tools to help them operate in the new and dynamic Agribusiness and market oriented environment.
+Finally, for this reason, the development of this quick to read reference materials is hoped to address challenges precipitated by technologies advancement and the ever rising clientele expectation which require information by the press of the button on their smart phones.
+</string>
+    <string name="contact_us_today_for_more_information_on_products_we_sell"><u>Contact Us Today For More Information on Products we Sell</u></string>
+
+
+</resources>

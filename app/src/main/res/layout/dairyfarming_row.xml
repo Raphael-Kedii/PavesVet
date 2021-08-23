@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activities_background">
+<TextView
+    android:id="@+id/general_info_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:text="General Dairy Farming Information"
+    android:textColor="#FFFF00"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/general_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/general_info_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/breeds_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/general_info"
+        android:paddingTop="10dp"
+        android:text="Breeds"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/breeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breeds_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/calf_fm_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breeds"
+        android:paddingTop="10dp"
+        android:text="Calf Feeding and Management"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/calf_fm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calf_fm_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/calf_hs_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calf_fm"
+        android:paddingTop="10dp"
+        android:text="Calf Housing and Shelter"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/calf_hs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calf_hs_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/calf_m_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calf_hs"
+        android:paddingTop="10dp"
+        android:text="Calf Management"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/calf_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calf_m_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/heifers_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calf_m"
+        android:paddingTop="10dp"
+        android:text="Heifers"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/heifers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heifers_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/dairy_feed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heifers"
+        android:paddingTop="10dp"
+        android:text="Feeding of Dairy Cows"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/dairy_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dairy_feed_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/dairy_m_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dairy_feed"
+        android:paddingTop="10dp"
+        android:text="Dairy Cow Management"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/dairy_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dairy_m_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/routine_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dairy_m"
+        android:paddingTop="10dp"
+        android:text="Routine Management"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/routine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/routine_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/records_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/routine"
+        android:paddingTop="10dp"
+        android:text="Records and Record Keeping"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/records_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/dairy_hs_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/records"
+        android:paddingTop="10dp"
+        android:text="Dairy Housing and Shelter"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/dairy_hs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dairy_hs_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+
+</RelativeLayout>

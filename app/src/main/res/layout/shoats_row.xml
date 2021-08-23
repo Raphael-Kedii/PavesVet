@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activities_background">
+    <TextView
+        android:id="@+id/shoats_general_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="General Sheep and Goats Farming Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_general_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_general_info_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_breeds_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_general_info"
+        android:paddingTop="10dp"
+        android:text="Breeds"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_breeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_breeds_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_management_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_breeds"
+        android:paddingTop="10dp"
+        android:text="Management Systems"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_management_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_nutrition_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_management"
+        android:paddingTop="10dp"
+        android:text="Nutrition and Feeding"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_nutrition_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_feeding_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_nutrition"
+        android:paddingTop="10dp"
+        android:text="Feeding Sheep and Goats in Different Phases"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_feeding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_feeding_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_housing_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_feeding"
+        android:paddingTop="10dp"
+        android:text="Housing, Fencing and Thethering"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_housing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_housing_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_management_prac_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_housing"
+        android:paddingTop="10dp"
+        android:text="Sheep and Goat Management Practices"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_management_prac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_management_prac_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/shoats_records_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoats_management_prac"
+        android:paddingTop="10dp"
+        android:text="Records and Record Keeping"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/shoats_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoats_records_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+
+</RelativeLayout>

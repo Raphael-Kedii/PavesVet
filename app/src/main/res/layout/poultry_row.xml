@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activities_background">
+    <TextView
+        android:id="@+id/poultry_general_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="General Poultry Farming Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/poultry_general_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poultry_general_info_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/poultry_breeds_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poultry_general_info"
+        android:paddingTop="10dp"
+        android:text="Chicken Breeds"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/poultry_breeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poultry_breeds_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/poultry_management_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poultry_breeds"
+        android:paddingTop="10dp"
+        android:text="Management Practices"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/poultry_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poultry_management_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+    <TextView
+        android:id="@+id/poultry_hatchery_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poultry_management"
+        android:paddingTop="10dp"
+        android:text="Hatchery Operation and Management of Breeding Stock"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/poultry_hatchery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poultry_hatchery_title"
+        android:textColor="@color/black"
+        app:colorClickableText="#166BE8"
+        app:trimLength="350"
+        app:trimMode="trimModeLength"
+        app:trimCollapsedText="Show less"
+        app:trimExpandedText="Show more"/>
+
+</RelativeLayout>
